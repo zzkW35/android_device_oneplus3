@@ -29,6 +29,7 @@ PLATFORM_PATH := device/oneplus/oneplus3
 TARGET_SPECIFIC_HEADER_PATH := $(PLATFORM_PATH)/include
 
 BOARD_VENDOR := oneplus
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 
 # Assertions
 TARGET_BOARD_INFO_FILE ?= $(PLATFORM_PATH)/board-info.txt
