@@ -280,6 +280,9 @@ PRODUCT_PACKAGES += \
     OneplusPocketMode \
     android.hardware.biometrics.fingerprint@2.1-service
 
+# GApps
+TARGET_DOES_NOT_USE_GAPPS := true
+
 # Gatekeeper HAL
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
