@@ -254,7 +254,7 @@ PRODUCT_PACKAGES += \
     qdcm_calib_data_samsung_s6e3fa5_1080p_cmd_mode_dsi_panel.xml
 
 # Doze mode
- PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     CustomDoze
 
 # DRM
@@ -479,8 +479,8 @@ PRODUCT_PACKAGES += \
     qti_telephony_utils.xml \
     telephony-ext
 
-# PRODUCT_BOOT_JARS += \
-#     telephony-ext
+ PRODUCT_BOOT_JARS += \
+     telephony-ext
 
 # TextClassifier smart selection model files
 PRODUCT_PACKAGES += \
